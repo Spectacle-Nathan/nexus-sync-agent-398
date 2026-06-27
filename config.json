@@ -1,15 +1,11 @@
-{{
-  "environment": "development",
-  "debug": true,
-  "database": {{
+{
+  "environment": "production",
+  "debug": false,
+  "database": {
     "node_id": "vps-892150a1",
     "region": "us-east-vinthill",
-    "endpoint": "https://admin.dev-node-sync-99.xyz",
-    "archive_export_url": "https://admin.dev-node-sync-99.xyz/api/v1/archive/export_all.json",
-    "sync_interval_ms": 3600000,
-    "auth": {{
-      "client_id": "nexus_dev_sync_agent",
-      "secret_key": "sec_nx_6f4e9c41"
-    }}
-  }}
-}}
+    "endpoint": "https://api-dev.dev-node-sync-99.xyz",
+    "archive_export_url": "PLACEHOLDER_MIGRATED_TO_KEY_VAULT",
+    "sync_interval_ms": 3600000
+  }
+}
